@@ -1,0 +1,72 @@
+/* inpostazioni generali */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* intestazione pagina */
+header {
+    height: 100px;
+    /* regole di debug */
+    background-color: plum;
+}
+
+#main_nav li {
+    display: inline-block;
+}
+
+/* contenuto pagina */
+#jumbotron {
+    margin: 20px 0;
+    /* regole di debug */
+    height: 400px;
+    background-color: sandybrown;
+}
+/* stuttura articolo */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.clearfix > * {
+    margin-bottom: 20px;
+}
+
+.ar_title {
+    height: 80px;
+    /* regole di debug */
+    background-color: skyblue;
+}
+
+/* colonne esterne */
+.correlati {
+    float: left;
+    width: 15%;
+    /* regole di debug */
+    height: 450px;
+    background-color: skyblue;
+}
+
+/* colonna centrale */
+.contenuto {
+    float: left;
+    width: 66%;
+    margin: 0 2%;    
+    /* regole di debug */
+    height: 450px;
+    background-color: skyblue;
+}
+
+/* footer */
+footer {
+    height: 60px;
+    /* regole di debug */
+    background-color: rebeccapurple;
+}
