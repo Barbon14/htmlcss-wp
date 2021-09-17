@@ -12,13 +12,26 @@
 
 /* intestazione pagina */
 header {
-    height: 100px;
-    /* regole di debug */
-    background-color: plum;
+    height: 140px;
+}
+
+#logo {
+    height: 50%;
+}
+
+#main_nav {
+    margin: 25px 0;
+    
 }
 
 #main_nav li {
     display: inline-block;
+    margin-right: 10px;
+}
+
+#main_nav a {
+    text-decoration: none;
+    color: #9c9c9c;
 }
 
 /* contenuto pagina */
