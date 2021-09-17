@@ -138,6 +138,7 @@ footer {
 footer::after {
     content: '\2665';
     color: red;
+    font-size: 25px;
 }
 
 
