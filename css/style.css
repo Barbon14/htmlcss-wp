@@ -3,11 +3,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.radius {
+    border-radius: 15px;
 }
 
 .container {
     width: 80%;
     margin: 0 auto;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.4);
 }
 
 /* intestazione pagina */
@@ -21,7 +32,6 @@ header {
 
 #main_nav {
     margin: 25px 0;
-    
 }
 
 #main_nav li {
@@ -37,10 +47,21 @@ header {
 /* contenuto pagina */
 #jumbotron {
     margin: 20px 0;
-    /* regole di debug */
-    height: 400px;
-    background-color: sandybrown;
+    height: 600px;
+    /* regole sfondo */
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
 }
+
+/* regole contenuto jumbotron*/
+#jumbo_content{
+    width: 50%;
+    margin-left: 5%;
+    color: white;
+    text-align: justify;     
+}
+
 /* stuttura articolo */
 .clearfix::after {
     content: "";
