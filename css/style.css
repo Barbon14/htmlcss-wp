@@ -21,9 +21,16 @@
     background-color: rgba(128, 128, 128, 0.4);
 }
 
-.subtitle {
-    font-weight: bold;
+.gray {
+    color: #9c9c9c;
 }
+
+/* impostazioni background dei blocchi */
+.background {
+    background-size: cover;
+    background-position: center;
+}
+
 /* intestazione pagina */
 header {
     height: 140px;
@@ -31,6 +38,8 @@ header {
 
 #logo {
     height: 50%;
+    border-right: solid 1px #9c9c9c;
+    padding-right: 20px;
 }
 
 #main_nav {
@@ -51,10 +60,8 @@ header {
 #jumbotron {
     margin: 20px 0;
     height: 600px;
-    /* regole sfondo */
     background-image: url(../img/banner.jpg);
-    background-size: cover;
-    background-position: center;
+    
 }
 
 /* regole contenuto jumbotron*/
@@ -80,13 +87,39 @@ header {
     height: 80px;
 }
 
+.maintitle {
+    font-size: 32px;
+}
+
+.subtitle {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.img_top_content {
+    height: 200px;
+}
+
 /* colonne esterne */
 .correlati {
     float: left;
     width: 15%;
 }
+/* colonna destra */
+.img_1 {
+    background-image: url(../img/img-1.jpg);
+}
+
+/* colonna sinistra */
+.img_3 {
+    background-image: url(../img/img-3.jpg);
+}
 
 /* colonna centrale */
+.img_2 {
+    background-image: url(../img/banner-2.jpg);
+}
+
 .contenuto {
     float: left;
     width: 66%;
