@@ -21,6 +21,9 @@
     background-color: rgba(128, 128, 128, 0.4);
 }
 
+.subtitle {
+    font-weight: bold;
+}
 /* intestazione pagina */
 header {
     height: 140px;
@@ -75,17 +78,12 @@ header {
 
 .ar_title {
     height: 80px;
-    /* regole di debug */
-    background-color: skyblue;
 }
 
 /* colonne esterne */
 .correlati {
     float: left;
     width: 15%;
-    /* regole di debug */
-    height: 450px;
-    background-color: skyblue;
 }
 
 /* colonna centrale */
@@ -94,13 +92,19 @@ header {
     width: 66%;
     margin: 0 2%;    
     /* regole di debug */
-    height: 450px;
-    background-color: skyblue;
 }
 
 /* footer */
 footer {
-    height: 60px;
-    /* regole di debug */
-    background-color: rebeccapurple;
+    margin-top: 20px;
+    height: 40px;
+    text-align: center;
+    font-weight: bold;
 }
+
+footer::after {
+    content: '\2665';
+    color: red;
+}
+
+
