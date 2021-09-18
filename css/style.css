@@ -71,6 +71,10 @@ header {
     text-align: justify;  
 }
 
+#jumbotron .overlay {
+    padding-top: 400px;
+}
+
 /* stuttura articolo */
 .clearfix::after {
     content: "";
